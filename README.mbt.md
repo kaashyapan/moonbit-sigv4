@@ -1,3 +1,3 @@
-# kaashyapan/aws_sigv4
+# kaashyapan/sigv4
 
 Used by kaashyapan/s3
