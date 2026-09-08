@@ -1,0 +1,27 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "kaashyapan/sigv4"
+
+// Values
+pub fn canonical_query(Map[String, String]) -> String
+
+pub fn percent_encode(StringView, slash_okay? : Bool) -> String
+
+pub fn presign_query(String, String, String, Credentials, String, String, String, Int, signed_headers? : Map[String, String]) -> Map[String, String]
+
+pub fn sign_headers(String, String, Map[String, String], Map[String, String], String, Credentials, String, String, String) -> Map[String, String]
+
+pub fn signing_key(String, String, String, String) -> FixedArray[Byte]
+
+// Errors
+
+// Types and methods
+pub(all) struct Credentials {
+  access_key_id : String
+  secret_access_key : String
+  session_token : String?
+} derive(Eq)
+pub fn Credentials::Credentials(String, String, session_token? : String) -> Self
+
+// Type aliases
+
+// Traits
