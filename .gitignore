@@ -2,3 +2,14 @@
 _build/
 .mooncakes/
 .moonagent/
+moon.work
+
+.DS_Store
+.ai/
+.auto-coder/
+.moonagent/
+node_modules/
+_build
+target
+.claude/
+.pi/
